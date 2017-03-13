@@ -1,0 +1,210 @@
+<html>
+    <head>
+       <title> Roman Baiev </title>  
+       <style>
+           body{
+               font-family: comic sans ms;
+           }
+           .tab1{
+               width:70%;
+               margin-left: 240px;
+               margin-top: 10px;
+               border-top: 1px dashed #ff8533;
+               border-left: 1px dashed #ff8533;
+               border-right: 1px dashed #ff8533;
+               border-radius: 12px 12px 0 0;
+           }
+           .navig-menu{
+               font-family: comic sans ms;
+               font-size: 15px;
+           }
+           .navbar-brand{
+            text-decoration: line-through;
+           }
+        
+               .togge{ 
+               width:70%;
+               margin-left: 240px;
+               height: 290px;
+               border-bottom: 1px dashed #ff8533;
+               border-left: 1px dashed #ff8533;
+               border-right: 1px dashed #ff8533;
+               border-radius: 0 0 12px 12px;
+               margin-bottom: 10px;
+               font-family: comic sans ms;
+               padding-left: 6px;
+               padding-top: 3px;
+           }  
+           .tab-content{
+               padding-left: 9px;
+               padding-top: 9px;
+           }
+           .bottom{
+               width: 100%;
+               height: 220px;
+               border-bottom-left-radius: 25px;
+               border-bottom-right-radius: 25px;
+               background-color: black;
+               border-top: 6px solid #ff751a;
+               font-family: comic sans ms;
+               font-size: 21px;
+               text-shadow: 1px 1px 1px;
+           }
+           .location{
+               margin-left: 460px;
+               margin-top: -55px;
+               color: white;
+               
+           }
+          .follow{
+              margin-left: 50px;
+          }
+       </style>
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="navig-menu">
+       <div class="container">
+           <div class="row">
+              <h3> Roman </h3>
+               <div class="navbar navbar-inverse navbar-fixed-top">
+                 <div class="container">
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                      <span class="sr-only"> Open My Menu </span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>     
+                      <span class="icon-bar"></span>     
+
+                       </button> 
+                       <a class="navbar-brand" href="#"> <b>Roman</b> </a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="responsive-menu">
+                    <ul class="nav navbar-nav">
+                       <li><a href="SiteCVRoman.html"> Home </a></li>
+                      <li><a href="scrollspy.html"> Lifestory </a></li>
+                     <li><a href="MySiteCVRoamnCV.html"> My CV </a> </li>
+                     <li><a href="#Contacts"> Contacts </a> </li>         
+                    
+                    </ul>   
+                  </div>       
+               </div>
+           </div> 
+          </div> 
+        </div>  
+    </div>
+    
+    <div class="tab1">
+    <table class="table table-hover">
+         <tr>
+             <td>
+                 <a href="http://vk.com">
+                    <img src="Roman_Baiev.png" width="200px" height="199px" alt="" class="img-circle" />
+                 </a>
+             </td>
+             
+             
+         </tr>
+         
+        
+                 <tr>
+                     <td> First Name:
+                     </td>
+                     
+                     <td colspan="2" > <b>Roman</b> </td>
+                 </tr> 
+                 <tr> <td> Last Name: </td>
+                     <td colspan="2" > <b>Baiev</b> </td>
+                 </tr> 
+                  <tr> <td> Date of Birth: </td>
+                      <td colspan="2" > Eighth of June 98' </td>
+                   </tr> 
+          
+        
+         
+        <tr>
+            <td> <b>Cellphone:</b> </td>
+            <td colspan="2" style="text-align: center;"> +380934045988 </td>
+        
+        </tr>
+        <tr>
+            <td> <b>FB profile:</b> </td>
+            <td colspan="2" > <a href="https://www.facebook.com/profile.php?id=100007914813891"> This one </a> </td>
+        </tr>
+        <tr>
+            <td> <b> E-mail </b> </td>
+            <td colspan="2"> romanbaiev@ukr.net </td>
+        </tr>
+    </table>
+    </div>    
+        
+        <div class="togg"> 
+        <script>
+        $('#myTab a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+        $('#myTab a[href="#educ"]').tab('show')
+        $('#myTab a:first').tab('show')
+        $('#myTab li:eq(2) a').tab('show')
+        </script>
+            <div class="togge">
+      <ul class="nav nav-tabs" role="tablist">
+          
+          <li role="presentation" ><a href="#educ" aria-controls="educ" role="tab" data-toggle="tab"> <b>Education:</b> </a></li>  
+          <li role="presentation"><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab"> <b>Special Skills:</b> </a> </li>
+          <li role="presentation"><a href="#personal" aria-controls="personal" role="tab" data-toggle="tab"> <b>Personal Qualities:</b> </a> </li>
+          <li role="presentation" class="active"><a href="#awards" aria-controls="awards" role="tab" data-toggle="tab"> <b>Recent stuff:</b> </a> </li>
+      </ul>
+<!--        tab panes-->
+        <div class="tab-content">
+          
+          <div role="tabpanel" class="tab-pane " id="educ"> 2015-till now – Kyiv National University of Trade and Economics, Economic Cybernetics. </div>
+          <div role="tabpanel" class="tab-pane" id="skills"> <p> 2002-2010 – Art School in Illichivsk, with the highest distinction. </p>
+                 <ol> <P>I speak ... </P> <li> Russian – native language. </li>
+                     <li>Ukrainian – fluent speaker.</li>
+                     <li>English – Upper-Intermediate.</li>
+                     <li>German-well basic knowledge.</li></ol>
+                 <p>Computer literacy: Microsoft Office, HTML & CSS, JavaScript.</p>
+                 <p>Hobbies: foreign languages, computer science, football.</p> </div>
+          <div role="tabpanel" class="tab-pane" id="personal"> <ul> <li>	Able to hard studying. </li>
+                 <li>Dependable. </li>
+                 <li>Cheerful.</li>
+                 <li>Versatile</li> </ul> </div>  
+          <div role="tabpanel" class="tab-pane class="active"" id="awards"> <img src="js_certificate.jpg" width="320px" height="210px">  </div>    
+        </div>
+            </div>
+    
+        </div>
+        <footer>
+            <div class="bottom">
+                <a name="Contacts"> </a> 
+            
+                <div class="thanks">
+                    <blockquote class="blockquote-reverse"> 
+                       <p> Thank You for Your time what you spent with reading this site. </p>
+                        <footer> Powered by  <cite title="Source Title"> Roman Baiev.  </cite>  </footer>
+                    </blockquote>
+                </div>
+                <div class="location">
+                    <adress>
+                    <h3> Locations: </h3>
+                    <ul> <li> Kyiv, Lisova</li>
+                         <li> Chornomorsk </li>
+                        <p> <abbr title="Phone"> P: </abbr> +380934045988 </p>
+                    </ul>
+                    </adress>
+                    </div>
+                <div class="follow">
+                    <p style="text-decoration: none; color: white;"> <a href="https://www.facebook.com/profile.php?id=100007914813891"> Follow me in FB </a></p>
+                </div>
+            </div>
+        </footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
